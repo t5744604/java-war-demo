@@ -1,9 +1,9 @@
 package com.demo;
 
 import java.io.IOException;
-import jakarta.servlet.ServletException;
-import jakarta.servlet.http.*;
-import jakarta.servlet.annotation.WebServlet;
+import javax.servlet.ServletException;
+import javax.servlet.http.*;
+import javax.servlet.annotation.WebServlet;
 
 @WebServlet(name = "HelloServlet", urlPatterns = {"/hello"})
 public class HelloServlet extends HttpServlet {
